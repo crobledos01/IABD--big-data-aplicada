@@ -1,7 +1,12 @@
+EJERCICIO 0
+
+Levantar el proyecto.
+start-dfs.cmd   En caso de error, primero stop-dfs.cmd y eliminar la carpeta C:hadoop/Data/datamode
+
 EJERCICIO 1
 
 Crear una carpeta dentro del directorio: hdfs dfs -mkdir /directorio/{nombre}
-Agregar un archivo a la carpeta: -hdfs dfs -put {directorio/archivo.txt} /directorio/{nombre}
+Agregar un archivo a la carpeta: hdfs dfs -put {directorio/archivo.txt} /directorio/{nombre}
 Leer los contenidos de la carpeta: hdfs dfs -ls /directorio/{nombre}
 Descargar el contenido de la carpeta (se descargará en la ubicación en la que estés en consola): hdfs dfs -get /directorio/{nombre}
 
@@ -18,3 +23,6 @@ Copia un archivo denro de HDFS. hdfs dfs -cp /user/carlos/prueba/{archivo}.txt /
 Renombra el archivo. hdfs dfs -mv /user/carlos/prueba/{archivo}_copia.txt user/Carlos/prueba/{renombrado}.txt
 Borra un archivo. hdfs dfs -rm /user/carlos/prueba/{renombrado}.txt
 Borra una carpeta. hdfs dfs -rm -r /user/carlos/{carpeta}
+
+EJERCICIO 4: Contar archivos y espacio usado en una carpeta
+Comando count. hdfs dfs -count /user/carlos/wordcount
