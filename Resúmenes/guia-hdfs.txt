@@ -9,6 +9,7 @@ EJERCICIO 1
 
 Crear una carpeta dentro del directorio: hdfs dfs -mkdir /directorio/{nombre}
 Agregar un archivo a la carpeta: hdfs dfs -put {directorio/archivo.txt} /directorio/{nombre}
+Sobreescribir un archivo: hdfs dfs -put -f {directorio/archivo.txt} /directorio/{nombre}
 Leer los contenidos de la carpeta: hdfs dfs -ls /directorio/{nombre}
 Descargar el contenido de la carpeta (se descargará en la ubicación en la que estés en consola): hdfs dfs -get /directorio/{nombre}
 
