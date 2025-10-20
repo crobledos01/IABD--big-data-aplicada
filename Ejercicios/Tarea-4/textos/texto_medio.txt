@@ -1,0 +1,9 @@
+Ejercicio 3: "Comparando tamaños y líneas de archivos"
+1. Crea tres archivos de texto de diferente tamaño (uno pequeño, uno mediano, uno
+grande).
+2. Sube los tres archivos a HDFS en una carpeta llamada
+/user/tuusuario/comparar.
+3. Averigua el tamaño de cada archivo en HDFS usando el comando adecuado.
+4. Muestra las primeras 5 líneas de cada archivo usando el comando adecuado.
+5. Responde: ¿Cuál es el archivo más grande? ¿Cuál tiene más líneas?
+6. Entrega: comandos usados, capturas o resultados y respuestas a las preguntas.
