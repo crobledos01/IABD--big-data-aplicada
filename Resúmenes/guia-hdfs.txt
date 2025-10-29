@@ -5,6 +5,10 @@ start-dfs.cmd start-yarn.cmd   En caso de error, primero stop-dfs.cmd y eliminar
 
 En caso de que el safety mode esté activo se utiliza: hdfs dfsadmin -safemode leave
 
+hadoop fs -chmod g+w /
+hadoop fs -chmod o+w /
+hadoop fs -chmod 777 /
+
 EJERCICIO 1
 
 Crear una carpeta dentro del directorio: hdfs dfs -mkdir /directorio/{nombre}
