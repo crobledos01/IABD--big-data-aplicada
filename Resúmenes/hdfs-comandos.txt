@@ -1,0 +1,11 @@
+hdfs dfs -mkdir {direccion}
+hdfs dfs -put {C:} {direccion}
+hdfs dfs -ls {direccion}
+hdfs dfs -get {direccion}
+hdfs dfs -cat {direccion}
+hdfs dfs -cp {direccion} {direccion_copia}
+hdfs dfs -mv {direccion} {direccion_cambio}
+hdfs dfs -rm {direccion}
+hdfs dfs -rm -r {direccion}
+hdfs dfs -count {direccion}
+hadoop jar C:.jar wordcount {C:} {direccion}
