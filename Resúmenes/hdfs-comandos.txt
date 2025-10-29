@@ -1,5 +1,6 @@
 hdfs dfs -mkdir                         {direccion}                             Crear carpeta
 hdfs dfs -put                           {C:} {direccion}                        Añadir archivo
+hdfs dfs -put -f                        {C:} {direccion}                        Sobreescribir archivo
 hdfs dfs -ls                            {direccion}                             Lista documentos
 hdfs dfs -get                           {direccion}                             Descargar archivo
 hdfs dfs -cat                           {direccion}                             Muestra un resultado
