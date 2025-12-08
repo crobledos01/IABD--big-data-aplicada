@@ -1,0 +1,3 @@
+Hadoop es fundamental en el ecosistema Big Data.
+El Big Data crece y Hadoop sigue expandiéndose.
+La IA utiliza Hadoop para procesar datos masivos.

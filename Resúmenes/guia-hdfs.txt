@@ -3,7 +3,12 @@ EJERCICIO 0
 Levantar el proyecto.
 start-dfs.cmd start-yarn.cmd   En caso de error, primero stop-dfs.cmd y eliminar la carpeta C:hadoop/Data/datanode
 
-En caso de que el safety mode esté activo se utiliza: hdfs dfsadmin -safemode leave
+En caso de que el safety mode esté activo se utiliza:
+
+hdfs dfsadmin -safemode leave
+hadoop fs -chmod g+w /
+hadoop fs -chmod o+w /
+hadoop fs -chmod 777 /
 
 EJERCICIO 1
 

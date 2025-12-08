@@ -1,11 +1,12 @@
-hdfs dfs -mkdir {direccion}
-hdfs dfs -put {C:} {direccion}
-hdfs dfs -ls {direccion}
-hdfs dfs -get {direccion}
-hdfs dfs -cat {direccion}
-hdfs dfs -cp {direccion} {direccion_copia}
-hdfs dfs -mv {direccion} {direccion_cambio}
-hdfs dfs -rm {direccion}
-hdfs dfs -rm -r {direccion}
-hdfs dfs -count {direccion}
-hadoop jar C:.jar wordcount {C:} {direccion}
+hdfs dfs -mkdir                         {direccion}                             Crear carpeta
+hdfs dfs -put                           {C:} {direccion}                        Añadir archivo
+hdfs dfs -put -f                        {C:} {direccion}                        Sobreescribir archivo
+hdfs dfs -ls                            {direccion}                             Lista documentos
+hdfs dfs -get                           {direccion}                             Descargar archivo
+hdfs dfs -cat                           {direccion}                             Muestra un resultado
+hdfs dfs -cp                            {direccion} {direccion_copia}           Copiar un archivo
+hdfs dfs -mv                            {direccion} {direccion_cambio}          Mover un archivo
+hdfs dfs -rm                            {direccion}                             Eliminar un archivo
+hdfs dfs -rm -r                         {direccion}                             Eliminar una carpeta
+hdfs dfs -count                         {direccion}                             Cuenta archivos y muestra lo que ocupa
+hadoop jar                      C:.jar wordcount {C:} {direccion}               wordcount
